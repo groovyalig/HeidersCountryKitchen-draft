@@ -1,0 +1,58 @@
+/*	Heider's Country Kitchen
+	About Us Style Sheet
+
+	Author: Alissa Hardison
+	Date: 	8 August 2019
+	
+	File Name: aboutStyles.css
+	
+	This file is the design for 
+	the About Us page, editing photos,
+	text, content layout (etc.) */
+
+
+/*	==================
+	  ARTICLE STYLES
+	==================
+*/	
+
+article h1, article h3, article h4, article p {
+	color: white;
+}
+
+/*	=====================
+	  ABT OWNERS STYLES
+	=====================
+*/	
+
+section#abtOwners img#owners {
+	display: block;
+	float: right;
+	width: 20%;
+	margin: 10px 60px 100px 60px;
+}
+
+section#abtOwners h1 {
+	display: block;
+	float: left;
+	width: 60%;
+	font-size: 2em;
+	line-height: 0.1em;
+	text-align: center;
+	margin: 30px 30px 20px 50px;
+}
+
+section#abtOwners p {
+	display: block;
+	float: left;
+	width: 60%;
+	font-size: 1.2em;
+	text-align: justify;
+	margin: 10px 30px 10px 50px;
+}
+
+hr {
+	display: block;
+	clear: both;
+	margin: 20px;
+}
