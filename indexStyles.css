@@ -1,0 +1,50 @@
+/*	Heider's Country Kitchen
+	Index Style Sheet
+
+	Author: Alissa Hardison
+	Date: 	25 July 2019
+	
+	File Name: generalStyles.css
+	
+	This file is for the layout of the 
+	index/home page of the HCK website.
+	It adjusts the layout of the images*/
+
+/*	=================
+	   BODY STYLES
+	=================
+*/
+
+body {
+	display: block;
+}
+
+/*	=================
+	 BODY IMG STYLES
+	=================
+*/
+
+img#specials {
+	display: block;
+	clear: both;
+	float: left;
+	margin: 10px;
+}
+
+img#toGo {
+	display: block;
+	float: left;
+	margin: 10px 5px 10px 10px;	
+}
+
+img#punchCard {
+	display: block;
+	float: left;
+	margin: 10px 10px 8px 5px;
+}
+
+img#events {
+	display: block;
+	float: left;
+	margin: 10px 10px 8px 5px;
+}
