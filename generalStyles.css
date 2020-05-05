@@ -1,0 +1,154 @@
+/*	Heider's Country Kitchen
+	General Style Sheet
+
+	Author: Alissa Hardison
+	Date: 	25 July 2019
+	
+	File Name: generalStyles.css
+	
+	This file is the general layout that 
+	applies to all pages on the website. 
+	Header, Footer, Backgrounds, Colors, etc. */
+
+
+/*	===============
+	  HTML STYLES
+	===============
+*/	
+
+html {
+   background: url(../images/plankBGDraft.jpg) center center / cover no-repeat fixed;
+   height: 100%;
+   font-family: sans-serif;
+   font-size: 12px;
+}
+
+
+/*	===============
+	  BODY STYLES
+	===============
+*/
+
+body {
+   background: rgb(31, 73, 125);   
+   box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+               rgb(51, 51, 51) -5px 0px 15px;
+   margin: 0px auto;
+   min-height: 100%;
+   min-width: 320px;
+   max-width: 1024px;
+}
+
+
+/*	=================
+	  HEADER STYLES
+	=================
+*/
+
+header {
+	display: table;
+	clear: both;
+	content: "";
+	width: 100%;
+	background: rgb(26, 60, 104); 
+}
+
+header img {
+	display: block;
+	width: 10%;
+	float: left;
+	padding: 1em 2em 1em 2em;
+}
+
+header section#hours {
+	display: block;
+	float: right;
+	text-align: right;
+	color: white;
+}
+
+/*	==============
+	  NAV STYLES
+	==============
+*/
+
+header nav#main {
+	min-height: 2em;
+	margin: 10% 0% auto 0%;
+	background-color: rgb(31, 73, 125);
+	letter-spacing: 0.2em;
+}
+
+nav#main li {
+   color: white;
+   display: block;
+   line-height: 2em;
+   text-transform: uppercase;
+   width: 20%;
+   float: left;
+}
+
+nav#main a {
+   display: block;
+   font-size: 1em;
+   text-align: center;
+   text-decoration: none;
+}
+
+nav#main a:visited, nav#main a:link {
+   color: white;
+}
+
+nav#main a:hover, nav#main a:active {
+	color: rgba(255,255,255,0.8);
+	background-color: rgba(26, 60, 104, 0.5);
+}
+
+/*	=================
+	  FOOTER STYLES
+	=================
+*/
+
+body > footer {
+   background-color: rgb(26, 60, 104);
+   text-align: center;
+   padding: 10px 0px;
+   color: white;
+   width: 100%;
+}
+
+body > footer { 
+	display: table;
+	clear: both;
+	content: "";
+}
+
+footer > section#footInfo {
+	letter-spacing: 0.1em;
+	font-size: 1.6em;
+}
+
+nav.footNav {
+	margin: 0.3em 1em 0em 1.5em;
+	font-size: 1.2em;
+}
+
+nav.footNav ul {
+	float: left;
+	font-size: 0.8em;
+	text-align: left;
+	width: 15%;
+	list-style-type: none;
+}
+
+nav.footNav a {
+	text-decoration: none;
+}
+
+nav.footNav a:visited, nav.footNav a:link {
+   color: white;
+}
+
+nav.footNav a:hover, nav.footNav a:active {
+   color: rgba(255,255,255,0.5);
+}
