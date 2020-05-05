@@ -1,0 +1,57 @@
+/*	Heider's Country Kitchen
+	Menu Style Sheet
+
+	Author: Alissa Hardison
+	Date: 	14 August 2019
+	
+	File Name: menuStyles.css
+	
+	This file is the design for 
+	the Menu page, editing photos,
+	text, content layout (etc.) */
+
+
+/*	==================
+	  ARTICLE STYLES
+	==================
+*/
+
+article {
+	display: block;
+	width: 70%;
+	float: right;
+	color: white;
+}
+
+/*	=================
+	  ASIDE STYLES
+	=================
+*/
+
+aside {
+	display: block;
+	width: 30%;
+	height: 100%;
+	float: left;
+	position: fixed;
+	color: white;
+}
+
+/*	================
+	   NAV STYLES
+	================
+*/
+
+nav a {
+	color: white;
+}
+
+nav a:visited, nav a:link {
+	text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+	text-decoration: none;
+}
+
+
